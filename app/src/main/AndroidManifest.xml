@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TotleButtonActivity">
+        <activity android:name=".RadioButtonActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,7 +26,9 @@
         <activity android:name=".MultiAutoCompleteTextViewActivity" />
         <activity android:name=".ButtonActivity" />
         <activity android:name=".Button2Activity" />
-        <activity android:name=".ImageActivity"></activity>
+        <activity android:name=".ImageActivity" />
+        <activity android:name=".TotleButtonActivity" />
+        <activity android:name=".CheckBoxActivity"></activity>
     </application>
 
 </manifest>
