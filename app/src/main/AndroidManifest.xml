@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cty.administrator.demo1">
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
-    <permission android:name="android.permission.READ_LOGS"></permission>
-    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <!-- To auto-complete the email text field in the login form with the user's emails -->
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.READ_PROFILE" />
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <permission android:name="android.permission.READ_LOGS" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
     <application
         android:allowBackup="true"
@@ -19,14 +16,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".IntentTestActivity">
+        <activity android:name=".DatePickerAndTimePicker"></activity>
+        <activity android:name=".ListViewTest" />
+        <activity android:name=".RadioButtonActivity" />
+        <activity android:name=".GridViewTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <!-- <activity android:name=".RelationActivity"></activity> -->
+        </activity> <!-- <activity android:name=".RelationActivity"></activity> -->
         <!-- <activity android:name=".goodActivity"></activity> -->
         <!-- <activity android:name=".AutoCompleteTextView"></activity> -->
         <activity android:name=".goodActivity" />
@@ -39,10 +38,6 @@
         <activity android:name=".ImageActivity" />
         <activity android:name=".TotleButtonActivity" />
         <activity android:name=".CheckBoxActivity" />
-        <activity android:name=".RadioButtonActivity" />
-        <activity android:name=".SecondeTextActivity" />
-        <activity android:name=".TestActivity" />
-        <activity android:name=".IntentTest2Activity"></activity>
     </application>
 
 </manifest>
