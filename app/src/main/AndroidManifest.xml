@@ -8,7 +8,7 @@
     <permission android:name="android.permission.READ_LOGS" />
 
     <uses-permission android:name="android.permission.SEND_SMS" />
-
+    <!--android:theme="@android:style/Theme.Black.NoTitleBar"-->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,10 +16,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DatePickerAndTimePicker"></activity>
+        <activity android:name=".GridViewTest"></activity>
+        <activity android:name=".DatePickerAndTimePicker" />
         <activity android:name=".ListViewTest" />
         <activity android:name=".RadioButtonActivity" />
-        <activity android:name=".GridViewTest">
+        <activity android:name=".SpinnerTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
